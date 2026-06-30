@@ -89,3 +89,24 @@ input {
     background-color: #fdfdfd;
     font-size: 110%;
 }
+
+.footer {
+    padding: 5%;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    background-color: rgb(140, 151, 250);
+    border: 0px;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: bold;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(140, 151, 250);
+}
