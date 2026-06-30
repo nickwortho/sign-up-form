@@ -35,7 +35,7 @@ body {
     flex-direction: column;
 }
 
-.content-container div {
+.content-container>div {
     height: calc(100vh/3);
 }
 
@@ -51,4 +51,41 @@ body {
 .form {
     background-color: white;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+fieldset>div {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    margin: 0.5rem;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+legend {
+    padding: 1rem;
+    font-weight: bold;
+}
+
+label {
+    font-variant: small-caps;
+}
+
+input {
+    border: 1px solid #eee;
+    border-radius: 4px;
+    background-color: #fdfdfd;
+    font-size: 110%;
 }
