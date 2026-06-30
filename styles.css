@@ -1,3 +1,8 @@
+:root {
+    font-family: "Roboto", sans-serif;
+    background-color: aliceblue;
+}
+
 body {
     margin: 0;
 }
@@ -28,4 +33,9 @@ body {
 
 .content-container div {
     height: calc(100vh/3);
+}
+
+.form {
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
 }
