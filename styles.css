@@ -1,3 +1,7 @@
+:root * {
+    /* outline: 1px solid red; */
+}
+
 :root {
     font-family: "Roboto", sans-serif;
     background-color: aliceblue;
@@ -33,6 +37,15 @@ body {
 
 .content-container div {
     height: calc(100vh/3);
+}
+
+.header {
+    font-weight: 600;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 5%;
 }
 
 .form {
